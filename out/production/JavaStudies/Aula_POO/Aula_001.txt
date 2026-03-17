@@ -1,0 +1,5 @@
+public class Aula_01 {
+    (String[] args) {
+        System.out.println("Este é o primeiro exemplo receba.");
+    }
+}
