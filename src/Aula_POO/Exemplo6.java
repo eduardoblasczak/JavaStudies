@@ -10,7 +10,7 @@ public class Exemplo6 {
   }
   
   public static void main(String[] args){
-    System.out.println("Teste de argumentos");
+    System.out.println("Teste de argumentos no windows");
     System.out.println("Argumento 1: " + args[0]); //um vetor em Java inicia com índice 0
     System.out.println("Comprimento de vetor args "+args.length);
     
