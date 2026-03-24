@@ -1,4 +1,3 @@
-package Aula_POO;
 
 import java.util.Scanner;
 import com.google.gson.Gson;
@@ -9,7 +8,7 @@ import java.util.Map;
 import java.security.MessageDigest;
 
 public class autenticação {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Gson gson = new Gson();
 
@@ -25,10 +24,10 @@ public class autenticação {
                 System.out.println("\nTentativa " + (tentativas + 1) + " de 5");
 
                 System.out.print("E-mail: ");
-                String emailInput = sc.nextLine();
+                String emailInput = leitor.nextLine();
 
                 System.out.print("Senha: ");
-                String senhaInput = sc.nextLine();
+                String senhaInput = leitor.nextLine();
 
                 // Transforma a senha digitada em hash para comparar com o JSON
                 String senhaHasheada = gerarHash(senhaInput);
@@ -39,21 +38,21 @@ public class autenticação {
                         logado = true;
                         System.out.println("Acesso permitido! Bem-vindo, " + user.get("nome"));
                         break;
-                    }
-                }
-                if (!logado) {
-                    tentativas++;
-                    if (tentativas < 5) {
-                        System.out.println("\nUsuário ou senha inválidos.");
-                    }
                 }
             }
-        } catch (Exception e) {
+            if (!logado) {
+                tentativas++;
+                if (tentativas < 5) {
+                    System.out.println("\nUsuário ou senha inválidos.");
+                }
+            }
+        }
+
+            catch (Exception e) {
             System.out.println("Erro no arquivo json");
         }
-        sc.close();
+    sc.close();
     }
-
     public static String gerarHash(String senha) {
         try {
             // 1. Escolhe o algoritmo (SHA-256)

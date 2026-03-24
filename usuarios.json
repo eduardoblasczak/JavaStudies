@@ -1,0 +1,38 @@
+[
+  {
+    "nome": "Ricardo Montes Claros",
+    "cpf": "458.291.034-88",
+    "email": "ricardo.montes@exemplo.com.br",
+    "senha": "RMC_test2026!"
+  },
+  {
+    "nome": "Lesaldo",
+    "cpf": "127.493.856-21",
+    "email": "lesaldo@leso.com",
+    "senha": "5d8e7c37e6b0b5e6b7d7a7b8e5c4a3f2b1a0d9e8f7c6b5a4d3e2f1a0b9c8d7e6"
+  },
+  {
+    "nome": "Bruno Silveira Santos",
+    "cpf": "832.105.742-09",
+    "email": "bruno.santos.dev@webmail.com",
+    "senha": "BSS_security#1"
+  },
+  {
+    "nome": "Mariana Farias Lima",
+    "cpf": "306.518.297-44",
+    "email": "mariana.farias@servico.com.br",
+    "senha": "MF_Lima_2024"
+  },
+  {
+    "nome": "Thiago Viana Rocha",
+    "cpf": "641.072.339-15",
+    "email": "thiago.viana@exemplo.org",
+    "senha": "Viana#Rocha22"
+  },
+  {
+    "nome": "Camila Nogueira",
+    "cpf": "915.384.062-77",
+    "email": "camila.nog@fastmail.com",
+    "senha": "Cami_Nog_99!"
+  }
+]
