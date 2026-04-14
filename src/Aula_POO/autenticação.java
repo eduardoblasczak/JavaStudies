@@ -1,6 +1,6 @@
 package Aula_POO;
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import java.io.FileReader;
@@ -76,3 +76,4 @@ public class autenticação {
         }
     }
 }
+*/
