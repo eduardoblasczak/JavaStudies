@@ -18,10 +18,10 @@ public class Pedido {
         this.cliente = cliente;
         this.produto = produto;
         this.quantidade = quantidade;
-        this.valorTotalPedido = calcPedido(produto, quantidade);
+        this.valorTotalPedido = calcPedido();
     }
 
-    private double calcPedido(Produto produto, int quantidade){
+    private double calcPedido(){
         double preco = produto.getPreco();
         return preco * quantidade;
     }
