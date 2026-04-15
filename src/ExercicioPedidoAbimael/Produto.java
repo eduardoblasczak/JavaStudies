@@ -1,16 +1,13 @@
-/*package SistemaEstoque;
-
 public class Produto {
     private String nome;
     private double preco;
 
-    // Construtor para definir nome e preço na criação
-    public Produto(String nome, double preco) {
-        this.nome = nome;
-        this.preco = preco;
+
+    public Produto() {
+        nome = "";
+        preco = 0.0;
     }
 
-    // Métodos para acessar e alterar os dados
     public String getNome() {
         return nome;
     }
@@ -25,4 +22,5 @@ public class Produto {
 
     public void setPreco(double preco) {
         this.preco = preco;
-*/
+    }
+}

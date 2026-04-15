@@ -1,4 +1,4 @@
-import ExercicioPedido.Pedido;
+/*import ExercicioPedido.Pedido;
 import ExercicioPedido.Produto;
 import ExercicioPedido.Cliente;
 public class ProgramaPrincipalPedidos {
@@ -25,3 +25,4 @@ public class ProgramaPrincipalPedidos {
         }
     }
 
+*/

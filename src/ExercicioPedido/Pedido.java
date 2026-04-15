@@ -1,17 +1,19 @@
-package ExercicioPedido;
+/*package ExercicioPedido;
 
+
+import java.util.ArrayList;
 
 public class Pedido {
     private Cliente cliente;
     private Produto produto;
-    private int quantidade;
     private double valorTotalPedido;
+    private ArrayList<Produto>;
 
     public Pedido(){
         this.cliente = null;
         this.produto = null;
-        this.quantidade = 0;
         this.valorTotalPedido = 0.0;
+        this.produtos = new ArrayList<>();
     }
 
     public Pedido(Cliente cliente, Produto produto, int quantidade){
@@ -34,3 +36,4 @@ public class Pedido {
         System.out.println("Valor total do pedido: "+ valorTotalPedido);
     }
 }
+*/

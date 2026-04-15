@@ -1,4 +1,4 @@
-public class SistemaEstoque {
+/*public class SistemaEstoque {
     public static void main(String[] args) {
         // Inicializa o estoque
         Estoque controleDeEstoque = new Estoque();
@@ -31,3 +31,6 @@ public class SistemaEstoque {
         controleDeEstoque.alterarPreco("Tablet", 2000.00);
     }
 }
+
+
+ */
